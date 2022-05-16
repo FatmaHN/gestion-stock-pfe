@@ -18,7 +18,7 @@
                   <th scope="col">Produit</th>
                   <th scope="col">Prix unitaire</th>
                   <th scope="col">Quantité</th>
-                  <th scope="col">Montant hors taxe</th>
+                  <th scope="col">Montant Hors Taxe</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
