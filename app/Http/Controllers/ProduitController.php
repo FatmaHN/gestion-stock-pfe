@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categorie;
-use App\Models\Famille;
 use App\Models\Produit;
 use Illuminate\Http\Request;
 use App\Models\Input;
@@ -78,6 +77,7 @@ class ProduitController extends Controller
         $produit = Produit::find($id);
         $input = Input::orderBy('id', 'DESC')->first();
         $produit['quantite']=$produit['quantite']+$input['qte'];
+
         $produit->update();
         return redirect('produit')->with('msgmod', 'Product added to stock :)');
     }

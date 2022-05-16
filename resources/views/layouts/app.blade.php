@@ -82,7 +82,7 @@
                      <div class="app-sidebar__logo">
                          <a class="header-brand" href="/home"> <!-- /home lien de page d'acceuil -->
                             <!--<img src="images/logo.jpg" alt="logo" height="90px" width="100px">!-->
-                             <img src="{{asset('assets/images/brand/capitol.png')}}"   height="60px" width="100px" alt="capitol logo" >
+                             <img src="{{asset('assets/images/brand/capitol_soft.png')}}"   height="60px" width="100px" alt="capitol logo" >
                                         
                          </a>
                      </div>

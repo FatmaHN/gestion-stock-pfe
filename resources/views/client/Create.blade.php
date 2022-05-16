@@ -2,7 +2,7 @@
 @section('content')
  
   <div class="card">
-    <div class="card-header">Ajouter Client</div>
+    <div class="card-header"><h4>Ajouter Client</h4></div>
       @if ($message = Session :: get ('msg')) 
         <div class="alert alert-success">
         {{$message}}
@@ -22,7 +22,7 @@
           <input type="tel"  name="num_tel" id="num_tel" class="form-control" required=""></br>
           <label>Adresse E-mail</label></br>
           <input type="email" name="email_cli" id="email_cli" class="form-control" required=""></br>
-          <input type="submit" value="Enregistrer" class="btn bg-primary-transparent"></br>
+          <input type="submit" value="Enregistrer" class="btn btn-primary"></br>
       </form>
     
     </div>

@@ -14,7 +14,7 @@ class StockController extends Controller
     {   
         $req = $request->all();
         Input::create($req);
-        return redirect('/add/'.$req["produit_id"]);
+        return redirect('/add/'.$req["produit_id"]);    // add est le fonction add dans le controller produitController
     }
     public function store2(Request $request)
     {   
@@ -30,7 +30,7 @@ class StockController extends Controller
     public function input()
     {
         $produits = Produit::all();
-        $inputs = Input::all();
+        $inputs = Input::all(); //Input est le modéle pour les entrées
         
         return view ('stock.input',compact('inputs'),compact('produits'));
     }

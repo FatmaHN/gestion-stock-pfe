@@ -25,8 +25,12 @@ use App\Http\Controllers\GenerateController;
 
 // First Page Route
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('auth.login');
+});*/
+
+Route::get('/', function () {
+    return view('welcome2');
 });
 
 // Authentication Routes
